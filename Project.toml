@@ -1,0 +1,9 @@
+[deps]
+ArgParse = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
+Blio = "87855aa7-8b24-49b4-b316-97c011f78d17"
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+Glob = "c27321d9-0574-5035-807b-f59d2c89b15c"
+HPGuppi = "2e410a1c-2223-4f79-aa6d-fbb1f6ab2835"
+Hashpipe = "89861ec2-aa86-43f2-b769-fb502ce05d7b"
+Hashpipe_jll = "a3e50fc0-e135-5cb8-92f4-a3765d91b533"
+Pluto = "c3e4b0f8-55cb-11ea-2926-15256bba5781"

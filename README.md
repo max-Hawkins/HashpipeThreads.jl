@@ -21,16 +21,17 @@ Since these Julian threads can be operated in coordination with C Hashpipe threa
 
 ### Developed
 
+- [Template Thread](hp_thread_template.jl) - Non-functional thread to serve as starting point for custom threads
 - [Dummy Thread](hp_thread_dummy.jl) - No-operation on data but sets input blocks as free when they're filled
 - [GUPPI Raw Reader](hp_thread_raw_reader.jl) - Reads GUPPI RAW data from files and outputs blocks to output databuffers
 
 ### In Development
 
 - [Correlator](hp_thread_correlator.jl) - Correlates GUPPI RAW block data and outputs visibility data that's integrated over entire blocks
-- [Visibility to UVH5 file]
-- TODO: Add more
+- [Visibility to UVH5 file](hpt_thread)
 
 ### Planned
 
+- Visibility to UVH5 file
 - Beamformer
-- 
+- Upchannelizer

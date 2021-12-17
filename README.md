@@ -28,7 +28,6 @@ Since these Julian threads can be operated in coordination with C Hashpipe threa
 ### In Development
 
 - [Correlator](hp_thread_correlator.jl) - Correlates GUPPI RAW block data and outputs visibility data that's integrated over entire blocks
-- [Visibility to UVH5 file](hpt_thread)
 
 ### Planned
 

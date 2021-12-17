@@ -15,3 +15,22 @@ See [the template thread](hp_thread_template.jl) for help creating your own thre
 ## Running threads
 
 Since these Julian threads can be operated in coordination with C Hashpipe threads, these threads will either be operated in a purely Julian Hashpipe pipeline or in combination with C Hashpipe threads. In C, Hashpipe initializes each thread from the end of the pipeline forwards and then starts each thread running from the start to the end. However, since each Julian thread is its own process, this coordination is difficult, so a Julain thread is initialized and then immediately started.
+
+
+## Threads
+
+### Developed
+
+- [Dummy Thread](hp_thread_dummy.jl) - No-operation on data but sets input blocks as free when they're filled
+- [GUPPI Raw Reader](hp_thread_raw_reader.jl) - Reads GUPPI RAW data from files and outputs blocks to output databuffers
+
+### In Development
+
+- [Correlator](hp_thread_correlator.jl) - Correlates GUPPI RAW block data and outputs visibility data that's integrated over entire blocks
+- [Visibility to UVH5 file]
+- TODO: Add more
+
+### Planned
+
+- Beamformer
+- 
